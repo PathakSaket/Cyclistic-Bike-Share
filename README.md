@@ -7,8 +7,8 @@ In this case study, I will perform many real-world tasks of a junior data analys
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) [accessed on 13/04/24]  
 
 SQL Queries:  
-[01. Data Combining](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataCombining.sql)
-[02. Data Exploration](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataExploration.sql)
+[01. Data Combining](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataCombining.sql)  
+[02. Data Exploration](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataExploration.sql)  
 [03. Data Cleaning](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataCleaning.sql)  
 [04. Data Analysis](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataAnalysis.sql)  
   
