@@ -1,4 +1,4 @@
--- combining all the 12 months data tables into a single table containing data from Jan 2022 to Dec 2022.
+-- combining all the 12 months data tables into a single table containing data from Apr 2023 to Mar 2024.
 
 CREATE TABLE IF NOT EXISTS `divvy_tripdata.combined_data` AS (
   SELECT * FROM `fluid-arc-417206.divvy_tripdata.apr_23`
