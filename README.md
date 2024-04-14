@@ -1,16 +1,16 @@
-# Google Data Analytics Capstone: Cyclistic Case Study
-Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone)
+# Cyclistic Case Study
+
 ## Introduction
-In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: __[Ask](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#ask), [Prepare](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#prepare), [Process](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#process), [Analyze](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#analyze-and-share), [Share](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#analyze-and-share), and [Act](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study#act)__.
-In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: [Ask](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#ask), [Prepare](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#prepare), [Process](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#process), [Analyze](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#analyze-and-share), [Share](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#analyze-and-share), and [Act](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study#act).
+In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: __[Ask](https://github.com/PathakSaket/Cyclistic-Case-Study/blob/main/README.md#ask), [Prepare](https://github.com/PathakSaket/Cyclistic-Case-Study/blob/main/README.md#prepare), [Process](https://github.com/PathakSaket/Cyclistic-Case-Study/blob/main/README.md#process), [Analyze](https://github.com/PathakSaket/Cyclistic-Case-Study/blob/main/README.md#analyze-and-share), [Share](https://github.com/PathakSaket/Cyclistic-Case-Study/blob/main/README.md#analyze-and-share), and [Act](https://github.com/PathakSaket/Cyclistic-Case-Study#act)__.
+In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: [Ask](https://github.com/PathakSaket/Cyclistic-Case-Study/blob/main/README.md#ask), [Prepare](https://github.com/PathakSaket/Cyclistic-Case-Study/blob/main/README.md#prepare), [Process](https://github.com/PathakSaket/Cyclistic-Case-Study/blob/main/README.md#process), [Analyze](https://github.com/PathakSaket/Cyclistic-Case-Study/blob/main/README.md#analyze-and-share), [Share](https://github.com/PathakSaket/Cyclistic-Case-Study/blob/main/README.md#analyze-and-share), and [Act](https://github.com/PathakSaket/Cyclistic-Case-Study#act).
 ### Quick links:
-Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) [accessed on 04/03/23]  
+Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) [accessed on 13/04/24]  
 
 SQL Queries:  
-[01. Data Combining](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/01.%20Data%20Combining.sql)  
-[02. Data Exploration](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/02.%20Data%20Exploration.sql)  
-[03. Data Cleaning](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/03.%20Data%20Cleaning.sql)  
-[04. Data Analysis](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/04.%20Data%20Analysis.sql)  
+[01. Data Combining](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataCombining.sql)
+[02. Data Exploration](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataExploration.sql)
+[03. Data Cleaning](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataCleaning.sql)  
+[04. Data Analysis](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataAnalysis.sql)  
   
 Data Visualizations: [Tableau](https://public.tableau.com/app/profile/somia.nasir/viz/bike-tripdata-casestudy/Dashboard1#1)  
 ## Background
@@ -44,10 +44,10 @@ BigQuery is used to combine the various datasets into one dataset and clean it.
 Reason:  
 A worksheet can only have 1,048,576 rows in Microsoft Excel because of its inability to manage large amounts of data. Because the Cyclistic dataset has more than 5.6 million rows, it is essential to use a platform like BigQuery that supports huge volumes of data.
 ### Combining the Data
-SQL Query: [Data Combining](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/01.%20Data%20Combining.sql)  
+SQL Query: [Data Combining](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataCombining.sql)  
 12 csv files are uploaded as tables in the dataset '2022_tripdata'. Another table named "combined_data" is created, containing 5,667,717 rows of data for the entire year. 
 ### Data Exploration
-SQL Query: [Data Exploration](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/02.%20Data%20Exploration.sql)  
+SQL Query: [Data Exploration](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataExploration.sql)  
 Before cleaning the data, I am familiarizing myself with the data to find the inconsistencies.  
 Observations:  
 1. The table below shows the all column names and their data types. The __ride_id__ column is our primary key.  
@@ -71,14 +71,14 @@ Observations:
     ![image](https://user-images.githubusercontent.com/125132307/226212522-aec43490-5d86-4e2e-a92e-b3bf52050415.png)
 11. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
 ### Data Cleaning
-SQL Query: [Data Cleaning](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/03.%20Data%20Cleaning.sql)  
+SQL Query: [Data Cleaning](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataCleaning.sql)  
 1. All the rows having missing values are deleted.  
 2. 3 more columns ride_length for duration of the trip, day_of_week and month are added.  
 3. Trips with duration less than a minute and longer than a day are excluded.
 4. Total 1,375,912 rows are removed in this step.
   
 ## Analyze and Share
-SQL Query: [Data Analysis](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/04.%20Data%20Analysis.sql)  
+SQL Query: [Data Analysis](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataAnalysis.sql)  
 Data Visualization: [Tableau](https://public.tableau.com/app/profile/somia.nasir/viz/bike-tripdata-casestudy/Dashboard1#1)  
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Tableau.  
 The analysis question is: How do annual members and casual riders use Cyclistic bikes differently?  
