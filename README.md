@@ -12,7 +12,7 @@ SQL Queries:
 [03. Data Cleaning](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataCleaning.sql)  
 [04. Data Analysis](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataAnalysis.sql)  
   
-Data Visualizations: [Tableau](https://public.tableau.com/app/profile/somia.nasir/viz/bike-tripdata-casestudy/Dashboard1#1)  
+Data Visualizations: Tableau  
 ## Background
 ### Cyclistic
 A bike-share program that features more than 5,800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people with disabilities and riders who can’t use a standard two-wheeled bike. The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use them to commute to work each day.   
@@ -79,7 +79,7 @@ SQL Query: [Data Cleaning](https://github.com/PathakSaket/Cyclistic-Bike-Share/b
   
 ## Analyze and Share
 SQL Query: [Data Analysis](https://github.com/PathakSaket/Cyclistic-Bike-Share/blob/main/DataAnalysis.sql)  
-Data Visualization: [Tableau](https://public.tableau.com/app/profile/somia.nasir/viz/bike-tripdata-casestudy/Dashboard1#1)  
+
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Tableau.  
 The analysis question is: How do annual members and casual riders use Cyclistic bikes differently?  
 First of all, member and casual riders are compared by the type of bikes they are using.  
